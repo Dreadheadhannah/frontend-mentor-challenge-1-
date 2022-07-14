@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: [Fraunces]url"(https://fonts.google.com/specimen/Fraunces)";
+
+}
+
+.attribution{
+    display: none;
+}
+
+.container{
+    background-color: #F2E9E2;
+}
+
+.content{
+    background-color: #fff;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    border: 1px solid #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.all{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.image img{
+    width: 90%; 
+    height:50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+        
+}
+
+.image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.inside{
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.bold{
+    color: #308168;
+    font-weight: 700;
+}
+
+.strike{
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.prices{
+    display: flex;
+    margin-top: 10px;
+}
+
+h1{
+    color: #1B2228;
+}
+
+h3, p{
+    color: #757581;
+}
+
+.cart-btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: 1px solid hsl(158, 36%, 37%);
+    height: 30px;
+    width: 150px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    margin: 20px 0;
+}
+
+button img{
+    margin-right: 10px;
+}
+
+.image .desktop{
+    display: none;
+}
+
+@media  only screen and (max-width: 1800px) and (min-width:1440px){
+    .all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img{
+        height: 80%;
+        width: 100%;
+        border-top-right-radius: none;
+        
+    }
+
+    .content{
+        width: 45%;
+        height: 540px;
+    }
+
+    .inside{
+        height: 100%;
+    }
+
+    .image .mobile{
+        display: none;
+    }
+
+    .image .desktop{
+        display: block;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .bold{
+        font-size: 45px;
+    }
+
+    .strike{
+        font-size: 20px;
+    }
+
+    button{
+        width: 55%;
+        font-size: 20px;
+        height: 50px;
+    }
+
+    .image{
+        margin-left: 400px;
+    }
+
+    .inside{
+        padding-top: 30px;
+    }
+
+    .prices{
+        margin: 20px 0;
+    }
+
+    .content{
+        margin-right: 400px;
+    }
+
+    .attribution{
+        display: block;
+    }
+    .attribution { font-size: 14px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+}
